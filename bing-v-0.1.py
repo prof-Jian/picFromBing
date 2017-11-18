@@ -67,7 +67,7 @@ i = 0
 while i < 5:
     i += 1
     # [1] 打开网页
-    temp_str = "http://cn.bing.com/HPImageArchive.aspx?format=xml&idx=%d&n=100" 
+    temp_str = "http://cn.bing.com/HPImageArchive.aspx?format=xml&idx=%d&n=100" % (i)
 
     response = open_url(temp_str)
     # [2] 找到图片
